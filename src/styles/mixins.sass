@@ -1,0 +1,19 @@
+@use '../styles/variables'
+
+@mixin center
+    display: flex
+    justify-content: center
+    align-items: center
+
+@mixin btn
+    padding: 0.5rem 1rem
+    color: variables.$text-color-secondary
+    background: variables.$gradient
+    text-decoration: none
+    border-radius: 3rem
+
+@mixin gradient-border
+    content: ""
+    background-color: variables.$bg-color-terciary
+    height: 3px
+    width: 20%
